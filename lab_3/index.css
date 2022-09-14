@@ -1,0 +1,124 @@
+* {
+    /* background-color: #121212; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: #121212;
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+    width: 100vw;
+    
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.main{
+    padding: 20px;
+    display: flex;
+}
+
+.main-center{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-btn {
+    background-color: #F0B254;
+    color: white;
+    font-weight: bold;
+    max-width: 120px;
+    font-size: 25px;
+    padding: 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+}
+
+.main-btn:hover{
+    text-decoration: underline;
+}
+
+.about-info-table {
+    /* border: 1px solid black;
+    border-radius: 30px; */
+    padding: 20px;
+    width: 500px;
+}
+.rating{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 400px;
+   
+}
+.main-right {
+    margin-left: 3%;
+}
+
+.characters {
+    /* width: 100vw; */
+    background-color: #121212;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px 120px 30px 120px;
+}
+
+.char-img{
+    width: 230px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.char-obj{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: fit-content;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.char-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.char-real-name{
+    font-size: 22px;
+    color: darkgray;
+    font-weight: bold;
+}
+
+.soundtracks {
+    padding: 20px;
+}
+
+.track-obj {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
