@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .page {
+            display: flex;
+        }
+        .left {
+            padding-top: 30px;
+            background-color: rgb(88, 88, 88);
+            width: 30vw;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .left-profile, .left-skills, .left-about-me, .left-contact-me, .left-links {
+            margin: 20px;
+        }
+
+        .left-name {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #about-me {
+            margin-top: 10px;
+            width: 300px;
+        }
+
+        .left-tag {
+            font-weight: bold;
+        }
+
+        .left-about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #profile {
+            border: 4px solid white;
+            border-radius: 50%;
+            object-fit: cover;
+            width: 230px;
+            height: 230px;
+        }
+        .logo {
+            width: 30px;
+        }
+        
+        .right {
+            width: 70vw;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: white;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            margin: 7px;
+        }
+
+        .picture {
+            width: 500px;
+            height: 500px;
+            object-fit: contain;
+
+        }
+        .block {
+            margin: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="left">
+            <div class="left-profile">
+                <img id="profile" src="./assets/profile.jpg" alt="profile"/>
+            </div>
+            <div class="left-name">
+                <h2 id="name">ZHAPAR ADIL</h2>
+                <h3 id="pos">Web/Web3 developer</h3>
+            </div>
+            <div class="left-skills">
+                <h3 class="left-tag">Technical Skills</h3>
+                <ul>
+                    <li>C++, Python, Java, JS/TS</li>
+                    <li>HTML/CSS</li>
+                    <li>Angular, ReactJS, Jquery, VanillaJS</li>
+                    <li>Django, NodeJS</li>
+                    <li>PostgeSQL, SQLite, MongoDB</li>
+                    <li>OOP, Algorithms and Data Structures</li>
+                </ul>
+            </div>
+            <div class="left-about-me">
+                <h3 class="left-tag">About me</h3>
+                <p id="about-me">
+                    Let me introduce myself. I am an active,
+                    bright member of the younger generation
+                    who wants to conquer the world. I want
+                    and love to learn new things, conquer
+                    peaks, develop myself and everybody
+                    arround. I have abilities to motivate
+                    people and inspire hope. I can speak in
+                    public and dispose them to myself. Time is
+                    my friend, and time-management is the
+                    thing, I can be proud of. I always do my
+                    best to complete every task, which I am
+                    interested. I'm hungry for knowledge,
+                    emotions and experience.
+                </p>
+            </div>
+            <div class="left-contact-me">
+                <h3 class="left-tag">Contact me</h3>
+                <p class="contact-info">Phone: 8 (708) 834 19 79</p>
+                <p class="contact-info">Email: adilzhapar2002@gmail.com</p>
+                <p class="contact-info">Telegram: <a target="_blank" href="https://t.me/zhaparka">zhaparka</a></p>
+                <p class="contact-info">Github: <a target="_blank" href="https://github.com/adilzhapar">adilzhapar</a></p>
+            </div>
+            <div class="left-links">
+                <a target="_blank" href="https://github.com/adilzhapar" class="logo-link"><img src="./assets/github.jpg" alt="github" class="logo"></a>
+                <a target="_blank" href="https://t.me/zhaparka" class="logo-link"><img src="./assets/telegram.png" alt="telega" class="logo"></a>
+                <a target="_blank" href="http://www.linkedin.com/in/adilzhapar" class="logo-link"><img src="./assets/linkedin.png" alt="linkedin" class="logo"></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="block"><img src="./assets/img1.jpg" alt="" class="picture"></div>
+            <div class="block"><img src="./assets/img2.JPG" alt="" class="picture"></div>
+            <div class="block"><img src="./assets/img3.jpg" alt="" class="picture"></div>
+            <div class="block"><img src="./assets/img4.webp" alt="" class="picture"></div>
+            <div class="block"><img src="./assets/img5.jpg" alt="" class="picture"></div>
+            <div class="block"><img src="./assets/img6.JPG" alt="" class="picture"></div>
+        </div>
+
+    </div>
+</body>
+</html>
