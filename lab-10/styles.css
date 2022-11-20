@@ -1,0 +1,47 @@
+html {
+    background-color: #171717;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: xx-large;
+}
+
+
+/* task - 1 */
+
+.loader-container {
+    display: flex;
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    border: 8px solid;
+    border-color: #F39F86 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* task - 2 */
+
+.answer {
+    font-size:x-large;
+    margin: 10px;
+}
