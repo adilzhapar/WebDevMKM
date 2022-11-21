@@ -13,7 +13,10 @@ function CheckPassword(inputtxt) {
 register.addEventListener('click', () => {
     let username = document.querySelector('.login').value;
     let password = document.querySelector('.password').value;
-    if(CheckPassword(password)){
+
+    if(username === "" || password === "") {
+        alert("fill each field");
+    }else if(CheckPassword(password)){
         window.localStorage.setItem(username, password);
         location.replace("./logged.html");
     }else{
@@ -27,7 +30,10 @@ login.addEventListener('click', () => {
     let username = document.querySelector('.login').value;
     let password = document.querySelector('.password').value;
     let logged = window.localStorage.getItem(username);
-    if (logged === password) {
+    if(username === "" || password === "") {
+        alert("fill each field");
+    }
+    else if (logged === password) {
         location.replace("./logged.html")
     } else {
         alert("wrong credentials");

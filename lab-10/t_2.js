@@ -96,7 +96,6 @@ button.addEventListener('click', () => {
         
         if(parseInt(current.value) !== quiz[i].correct){
             isCorrect = false;
-            console.log("false worked");
         }
     }
 
